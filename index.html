@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora&family=Montserrat:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <title>Devchallenges</title>
+  </head>
+  <body>
+    <section class="container">
+      <!-- mobile navbar, menu -->
+      <nav class="navbar__mobile">
+        <div class="logo"><p class="logo__text">This interior</p></div>
+
+        <div class="mobileMenu__open">
+          <span class="material-icons md-24"> menu </span>
+        </div>
+      </nav>
+      <!-- nav bar on open (menu) -->
+      <div class="navbar__mobileMenu hidden">
+        <div class="mobileMenu__exit">
+          <span class="material-icons exit__button md-24"> close </span>
+        </div>
+
+        <ul class="navbar__nav">
+          <li class="nav__home nav__item"><a href="">Home</a></li>
+          <li class="nav__collection nav__item"><a href="">Collection</a></li>
+          <li class="nav__about nav__item"><a href="">About</a></li>
+          <li class="nav__contact nav__item"><a href="">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- desktop menu, navbar -->
+      <nav class="navbar">
+        <div class="logo"><p class="logo__text">This interior</p></div>
+
+        <ul class="navbar__nav">
+          <li class="nav__home nav__item"><a href="">Home</a></li>
+          <li class="nav__collection nav__item">
+            <a href="">Collection</a>
+          </li>
+          <li class="nav__about nav__item">
+            <a href="">About</a>
+          </li>
+          <li class="nav__contact nav__item">
+            <a href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="interior__homepage">
+        <div class="homepage__text">
+          <h1 class="homepage__textHeader">Modern interior</h1>
+          <p class="homepage__textBody">
+            A full-Service residential & <br />
+            commercial interior design and <br />
+            staging company offering <br />
+            professional organizing & <br />
+            eco-services.
+          </p>
+
+          <p class="textBody__readMore">
+            Read More
+            <span class="material-icons readMore__arrow md-36">
+              trending_flat
+            </span>
+          </p>
+        </div>
+        <div class="homepage__designImage">
+          <img src="photo1.png" alt="" class="interior__designImage" />
+          <div class="designedBy__card">
+            <div class="about__designer">
+              <img src="photo2.png" alt="" class="designer__image" />
+              <div class="designer__detail">
+                <h4 class="designer__name">Aliza Webber</h4>
+                <p class="designer__position">Interior designer</p>
+              </div>
+            </div>
+
+            <h3 class="card__text">
+              Designed in 2020 by <br />
+              Aliza Webber
+            </h3>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p class="credit">
+          <a
+            href="https://www.linkedin.com/in/k-shweta-kumari-86a47418a/"
+            class="solver"
+            >Shweta Kumari</a
+          >
+          @
+          <a href="https://devchallenges.io/" class="devChallenge"
+            >DevChallenges.io</a
+          >
+        </p>
+      </footer>
+    </section>
+
+    <script src="interior.js"></script>
+  </body>
+</html>
